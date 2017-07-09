@@ -1,4 +1,4 @@
-# Java Packman
+# Java Pacman
 
 I developed this Pacman Version when I was 16.
 
