@@ -12,6 +12,7 @@ java Packman
 ## The Field
 
 The Field can be dynamically changed by editing the text file in the res/ directory. Every char describes one element:
+
 | Char  | Type            |
 | ----- | --------------- |
 | A     | Border 1        |
