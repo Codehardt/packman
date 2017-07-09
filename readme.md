@@ -5,8 +5,8 @@ I developed this Pacman Version when I was 16.
 ## Run the game
 
 ```
-javac Packman.java
-java Packman
+javac Pacman.java
+java Pacman
 ```
 
 ## The Field
@@ -28,5 +28,5 @@ The Field can be dynamically changed by editing the text file in the res/ direct
 | K     | Crisscross      |
 | L     | Nothing         |
 | M     | Feed            |
-| N     | Packman         |
+| N     | Pacman          |
 | 0     | Enemy           |
