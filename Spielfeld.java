@@ -198,7 +198,7 @@ public class Spielfeld extends JPanel implements Runnable, KeyListener {
 	  				
 	  				if (gefressen == futter.length) {
 	  					
-	  	  				int choose = JOptionPane.showConfirmDialog(this, "Du hast in " + (System.currentTimeMillis() - start) + "ms ALLE Stücke gefressen! Möchtest Du erneut spielen?");
+	  	  				int choose = JOptionPane.showConfirmDialog(this, "Du hast in " + (System.currentTimeMillis() - start) + "ms ALLE StÃ¼cke gefressen! MÃ¶chtest Du erneut spielen?");
 	  	  				
 	  	  				if (choose == JOptionPane.YES_OPTION) 	starten();	
 	  	  				else 									end();
@@ -280,7 +280,7 @@ public class Spielfeld extends JPanel implements Runnable, KeyListener {
   			
   			if (Mathe.abstand(p.x + 10, g.x + 10, p.y + 10, g.y + 10) < 20) {
   				
-  				int choose = JOptionPane.showConfirmDialog(this, "Du hast in " + (System.currentTimeMillis() - start) + "ms " + gefressen + " Stücke gefressen! Möchtest Du erneut spielen?");
+  				int choose = JOptionPane.showConfirmDialog(this, "Du hast in " + (System.currentTimeMillis() - start) + "ms " + gefressen + " StÃ¼cke gefressen! MÃ¶chtest Du erneut spielen?");
   				
   				if (choose == JOptionPane.YES_OPTION) 	starten();
   				else 									end();
@@ -340,7 +340,7 @@ public class Spielfeld extends JPanel implements Runnable, KeyListener {
   		int choose;
   		
 		pause 	= true;
-		choose 	= JOptionPane.showConfirmDialog(this, "Möchtest Du das Spiel wirklich beenden?");
+		choose 	= JOptionPane.showConfirmDialog(this, "MÃ¶chtest Du das Spiel wirklich beenden?");
 		
 		if (choose == JOptionPane.YES_OPTION) end();
 		
